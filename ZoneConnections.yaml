@@ -1,0 +1,1163 @@
+FindLocations:
+# 1 qeynos
+    qeynos:
+        -   type: ZoneConnection
+            location: [470, -442, 2]
+            targetZone: qeynos2
+            identifier: 1
+        -   type: ZoneConnection
+            location: [610, -77, 0]
+            targetZone: qeynos2
+            identifier: 2
+        -   type: ZoneConnection
+            location: [-143, -622, -24]
+            targetZone: qcat
+        -   type: Translocator
+            name: '#Translocator Sedina'
+            keyword: Erud's Crossing
+            targetZone: erudsxing
+# 2 qeynos2
+    qeynos2:
+        -   type: ZoneConnection
+            location: [1405, 440, 4]
+            targetZone: qeytoqrg
+        -   type: ZoneConnection
+            location: [-164, -8, 0]
+            targetZone: qeynos
+            identifier: 1
+        -   type: ZoneConnection
+            location: [-48, 356, 0]
+            targetZone: qeynos
+            identifier: 2
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 3 qrg
+    qrg:
+        -   type: ZoneConnection
+            location: [-640, 110, 4]
+            targetZone: qeytoqrg
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 4 qeytoqrg
+    qeytoqrg:
+        -   type: ZoneConnection
+            location: [1240, -2475, 0]
+            targetZone: qey2hh1
+        -   type: ZoneConnection
+            location: [-450, 250, -4]
+            targetZone: qeynos2
+        -   type: ZoneConnection
+            location: [5205, 84, -6]
+            targetZone: qrg
+# 5 unused
+# 6 highkeep
+    highkeep:
+        -   type: ZoneConnection
+            location: [65, 120, -2]
+            targetZone: highpasshold
+# 407 new highpass - old highpass #7
+    highpasshold:
+        -   type: ZoneConnection
+            location: [-51, -349, -25]
+            targetZone: highkeep
+        -   type: ZoneConnection
+            location: [1330, 113, -205]
+            targetZone: eastkarana
+        -   type: ZoneConnection
+            location: [-1408, 167, -126]
+            targetZone: kithicor
+# 8 freportn
+    freportn:
+        -   type: ZoneConnection
+            location: [-466, 488, -13]
+            targetZone: freportw
+            identifier: 1
+        -   type: ZoneConnection
+            location: [-417, -89, -27]
+            targetZone: freportw
+            identifier: 2
+        -   type: ZoneConnection
+            location: [362, 678, -13]
+            targetZone: freportw
+            identifier: 3
+# 9 freportw
+    freportw:
+        -   type: ZoneConnection
+            location: [308, -702, -27]
+            targetZone: freportn
+            identifier: 1
+        -   type: ZoneConnection
+            location: [276, -134, -13]
+            targetZone: freportn
+            identifier: 2
+        -   type: ZoneConnection
+            location: [1591, -239, 0]
+            targetZone: freportn
+            identifier: 3
+        -   type: ZoneConnection
+            location: [-422, -624, -27]
+            targetZone: freporte
+            identifier: 1
+        -   type: ZoneConnection
+            location: [-85, -879, -27]
+            targetZone: freporte
+            identifier: 2
+        -   type: ZoneConnection
+            location: [2, 996, -27]
+            targetZone: ecommons
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 10 freporte
+    freporte:
+        -   type: ZoneConnection
+            location: [-190, 343, -97]
+            targetZone: freportw
+            identifier: 1
+        -   type: ZoneConnection
+            location: [131, -62, -27]
+            targetZone: freportw
+            identifier: 2
+        -   type: ZoneConnection
+            location: [451, -391, -27]
+            targetZone: freportw
+            identifier: 3
+        -   type: ZoneConnection
+            location: [-1392, -736, -55]
+            targetZone: nro
+        -   type: Translocator
+            name: '#Translocator Setikan'
+            keyword: Ocean of Tears
+            targetZone: oot
+# 11 runnyeye
+    runnyeye:
+        -   type: ZoneConnection
+            location: [261, 150, 1]
+            targetZone: misty
+        -   type: ZoneConnection
+            location: [-111, -8, 0]
+            targetZone: beholder
+# 12 qey2hh1
+    qey2hh1:
+        -   type: ZoneConnection
+            location: [66, 75, -7]
+            targetZone: qeytoqrg
+        -   type: ZoneConnection
+            location: [640, -16049, -4]
+            targetZone: northkarana
+# 13 northkarana
+    northkarana:
+        -   type: ZoneConnection
+            location: [-1247, 3316, -4]
+            targetZone: qey2hh1
+        -   type: ZoneConnection
+            location: [15, -3104, -37]
+            targetZone: eastkarana
+        -   type: ZoneConnection
+            location: [-4521, 1206, -34]
+            targetZone: southkarana
+# 14 southkarana
+    southkarana:
+        -   type: ZoneConnection
+            location: [2904, 912, -34]
+            targetZone: northkarana
+        -   type: ZoneConnection
+            location: [-8600, 1152, 0]
+            targetZone: lakerathe
+        -   type: ZoneConnection
+            location: [-3140, 924, -8]
+            targetZone: paw
+# 15 eastkarana
+    eastkarana:
+        -   type: ZoneConnection
+            location: [16, 1180, -37]
+            targetZone: northkarana
+        -   type: ZoneConnection
+            location: [3749, -1937, 18]
+            targetZone: beholder
+        -   type: ZoneConnection
+            location: [-3086, -8341, 690]
+            targetZone: highpasshold
+# 16 beholder
+    beholder:
+        -   type: ZoneConnection
+            location: [-1320, -558, 49]
+            targetZone: eastkarana
+        -   type: ZoneConnection
+            location: [902, -1870, 1]
+            targetZone: runnyeye
+# 17 blackburrow
+    blackburrow:
+        -   type: ZoneConnection
+            location: [111, -349, 0]
+            targetZone: everfrost
+        -   type: ZoneConnection
+            location: [-161, 1, 0]
+            targetZone: qeytoqrg
+# 18 paw
+    paw:
+        -   type: ZoneConnection
+            location: [-143, 68, 0]
+            targetZone: southkarana
+# 19 rivervale
+    rivervale:
+        -   type: ZoneConnection
+            location: [-385, -279, 0]
+            targetZone: kithicor
+        -   type: ZoneConnection
+            location: [-90, 120, 0]
+            targetZone: misty
+# 20 kithicor
+    kithicor:
+        -   type: ZoneConnection
+            location: [2025, 3823, 466]
+            targetZone: rivervale
+        -   type: ZoneConnection
+            location: [586, 4902, 690]
+            targetZone: highpasshold
+# 21 commons
+    commons:
+        -   type: ZoneConnection
+            location: [886, 4243, -48]
+            targetZone: kithicor
+        -   type: ZoneConnection
+            location: [-1160, 597, -39]
+            targetZone: befallen
+        -   type: ZoneConnection
+            location: [207, -1675, -51]
+            targetZone: ecommons
+# 22 ecommons
+    ecommons:
+        -   type: ZoneConnection
+            location: [28, -1610, -50]
+            targetZone: freportw
+        -   type: ZoneConnection
+            location: [1535, 595, -21]
+            targetZone: nektulos
+        -   type: ZoneConnection
+            location: [114, 5187, -50]
+            targetZone: commons
+        -   type: Translocator
+            name: Temporal Arcanist Caer
+            destinations:
+                -   keyword: Plane of Sky
+                    targetZone: airplane
+        -   type: Translocator
+            name: Temporal Arcanist T`Ret
+            destinations:
+                -   keyword: Plane of Hate
+                    targetZone: hateplane
+        -   type: Translocator
+            name: Wurmslayer Duvall
+            destinations:
+                -   keyword: Veeshan
+                    targetZone: veeshan
+        -   type: Translocator
+            name: Temporal Arcanist Belinda
+            destinations:
+                -   keyword: Neriak
+                    targetZone: nektulos
+                -   keyword: Freeport
+                    targetZone: freportw
+                -   keyword: Halas
+                    targetZone: everfrost
+                -   keyword: Kelethin
+                    targetZone: gfaydark
+                -   keyword: Qeynos
+                    targetZone: qeynos2
+                -   keyword: Oggok
+                    targetZone: feerrott
+                -   keyword: Rivervale
+                    targetZone: misty
+                -   keyword: Kaladim
+                    targetZone: butcher
+                -   keyword: Erudin
+                    targetZone: tox
+                -   keyword: Paineel
+                    targetZone: tox
+                -   keyword: Cabilis
+                    targetZone: fieldofbone
+                -   keyword: Grobb
+                    targetZone: innothule
+                -   keyword: AkAnon
+                    targetZone: steamfont
+                -   keyword: Overthere
+                    targetZone: overthere
+                -   keyword: Chardok
+                    targetZone: chardok
+                -   keyword: Dalnir
+                    targetZone: dalnir
+                -   keyword: The Hole
+                    targetZone: paineel
+                -   keyword: Old Sebilis
+                    targetZone: sebilis
+                -   keyword: North Karana
+                    targetZone: northkarana
+                -   keyword: Firiona Vie
+                    targetZone: firiona
+# 23 erudnint
+    erudnint:
+        -   type: ZoneConnection
+            location: [711, 800, 4.5]
+            targetZone: erudnext
+# 24 erudnext
+    erudnext:
+        -   type: ZoneConnection
+            location: [-645, -182, 77]
+            targetZone: erudnint
+        -   type: ZoneConnection
+            location: [-1576, -185, -47]
+            targetZone: tox
+# 25 nektulos
+    nektulos:
+        -   type: ZoneConnection
+            location: [-2703, -645, -18]
+            targetZone: ecommons
+        -   type: ZoneConnection
+            location: [3170, 320, -16.8]
+            targetZone: lavastorm
+        -   type: ZoneConnection
+            location: [2237, -1103, 4]
+            targetZone: neriaka
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 26 unused
+# 27 lavastorm
+    lavastorm:
+        -   type: ZoneConnection
+            location: [-2154, -212, -19]
+            targetZone: nektulos
+        -   type: ZoneConnection
+            location: [775, 230, 130]
+            targetZone: soldunga
+        -   type: ZoneConnection
+            location: [1355, 330, 149]
+            switch: 3
+            targetZone: soltemple
+        -   type: ZoneConnection
+            location: [-935, -1070, 16]
+            targetZone: najena
+        -   type: ZoneConnection
+            location: [895, 484, 55]
+            targetZone: soldungb
+# 28 unused
+# 29
+    halas:
+        -   type: ZoneConnection
+            location: [-750, -75, 3]
+            targetZone: everfrost
+# 30 everfrost
+    everfrost:
+        -   type: ZoneConnection
+            location: [3783, 369, 0]
+            targetZone: halas
+        -   type: ZoneConnection
+            location: [-3059, -536, -113]
+            targetZone: blackburrow
+        -   type: ZoneConnection
+            location: [2021, -7148, -63]
+            targetZone: permafrost
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 31 soldunga
+    soldunga:
+        -   type: ZoneConnection
+            location: [-430, -524, 73]
+            targetZone: lavastorm
+# 32 soldungb
+    soldungb:
+        -   type: ZoneConnection
+            location: [-390, -263, -108]
+            targetZone: soldungb
+# 33 misty
+    misty:
+        -   type: ZoneConnection
+            location: [-840, 1437, -10]
+            targetZone: runnyeye
+        -   type: ZoneConnection
+            location: [401, -2627, -10]
+            targetZone: rivervale
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 34 nro
+    nro:
+        -   type: ZoneConnection
+            location: [4181, 336, -27]
+            targetZone: freporte
+        -   type: ZoneConnection
+            location: [2604, 2910, 3]
+            targetZone: ecommons
+        -   type: ZoneConnection
+            location: [-1889, 985, 27]
+            targetZone: oasis
+# 35 sro
+    sro:
+        -   type: ZoneConnection
+            location: [1547, 155, 2.5]
+            targetZone: oasis
+        -   type: ZoneConnection
+            location: [-3187, 1153, -26]
+            targetZone: innothule
+# 36 befallen
+    befallen:
+        -   type: ZoneConnection
+            location: [-52, -8, 0]
+            targetZone: commons
+# 37 oasis
+    oasis:
+        -   type: ZoneConnection
+            location: [2568, 871, 26]
+            targetZone: nro
+        -   type: ZoneConnection
+            location: [-1925, 162, 2.5]
+            targetZone: sro
+# 38 tox
+    tox:
+        -   type: ZoneConnection
+            location: [2570, 293, -48]
+            targetZone: erudnext
+        -   type: ZoneConnection
+            location: [-2653, -412, -45]
+            targetZone: paineel
+        -   type: ZoneConnection
+            location: [-515, 2709, -45]
+            targetZone: kerraridge
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+        -   type: Translocator
+            name: Temporal Arcanist Sheena
+            destinations:
+                -   keyword: Plane of Sky
+                    targetZone: airplane
+        -   type: Translocator
+            name: Temporal Arcanist T`Lor
+            destinations:
+                -   keyword: Plane of Hate
+                    targetZone: hateplane
+        -   type: Translocator
+            name: Wurmslayer Draka
+            destinations:
+                -   keyword: Veeshan
+                    targetZone: veeshan
+        -   type: Translocator
+            name: Temporal Arcanist Barinda
+            destinations:
+                -   keyword: Neriak
+                    targetZone: nektulos
+                -   keyword: Freeport
+                    targetZone: freportw
+                -   keyword: Halas
+                    targetZone: everfrost
+                -   keyword: Kelethin
+                    targetZone: gfaydark
+                -   keyword: Qeynos
+                    targetZone: qeynos2
+                -   keyword: Oggok
+                    targetZone: feerrott
+                -   keyword: Rivervale
+                    targetZone: misty
+                -   keyword: Kaladim
+                    targetZone: butcher
+                -   keyword: Erudin
+                    targetZone: tox
+                -   keyword: Paineel
+                    targetZone: tox
+                -   keyword: Cabilis
+                    targetZone: fieldofbone
+                -   keyword: Grobb
+                    targetZone: innothule
+                -   keyword: AkAnon
+                    targetZone: steamfont
+                -   keyword: Overthere
+                    targetZone: overthere
+                -   keyword: Chardok
+                    targetZone: chardok
+                -   keyword: Dalnir
+                    targetZone: dalnir
+                -   keyword: The Hole
+                    targetZone: paineel
+                -   keyword: Old Sebilis
+                    targetZone: sebilis
+                -   keyword: North Karana
+                    targetZone: northkarana
+                -   keyword: Firiona Vie
+                    targetZone: firiona
+# 39 hole
+    hole:
+        -   type: ZoneConnection
+            location: [594, -942, -97]
+            targetZone: paineel
+# 40 neriaka
+    neriaka:
+        -   type: ZoneConnection
+            location: [73, 162, 28]
+            targetZone: nektulos
+        -   type: ZoneConnection
+            location: [82, -403, -13]
+            targetZone: neriakb
+            identifier: 1
+        -   type: ZoneConnection
+            location: [-233, -454, 14]
+            targetZone: neriakb
+            identifier: 2
+# 41 neriakb
+    neriakb:
+        -   type: ZoneConnection
+            location: [219, -849, -41]
+            targetZone: neriakc
+        -   type: ZoneConnection
+            location: [70, -315, -13]
+            targetZone: neriaka
+            identifier: 1
+# 42 neriakc
+    neriakc:
+        -   type: ZoneConnection
+            location: [183, -851, -52]
+            targetZone: neriakb
+# 43 unused
+# 44 najena
+    najena:
+        -   type: ZoneConnection
+            location: [-19, 930, 3.5]
+            targetZone: lavastorm
+# 45 qcat
+    qcat:
+        -   type: ZoneConnection
+            location: [218, -280, -38]
+            targetZone: qeynos2
+            script: |
+                mq.cmd('/keypress page_up hold')
+                mq.delay(2000)
+                mq.cmd('/keypress page_up')
+                mq.cmd('/keypress forward hold')
+                mq.delay(3000)
+                mq.cmd('/keypress forward')
+# 46 innothule
+    innothule:
+        -   type: ZoneConnection
+            location: [-2742, -623, -34]
+            targetZone: grobb
+        -   type: ZoneConnection
+            location: [-1137, 1907, -12]
+            targetZone: feerrott
+        -   type: ZoneConnection
+            location: [2592, 1143, -29]
+            targetZone: sro
+        -   type: ZoneConnection
+            location: [143, -837, -11]
+            targetZone: guktop
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 47 feerrott
+    feerrott:
+        -   type: ZoneConnection
+            location: [1728, 811, 57]
+            targetZone: oggok
+        -   type: ZoneConnection
+            location: [-1138, -3125, -12]
+            targetZone: innothule
+        -   type: ZoneConnection
+            location: [-1491, -110, 48]
+            targetZone: cazicthule
+        -   type: ZoneConnection
+            location: [443, 3452, 0]
+            targetZone: rathemtn
+        -   type: ZoneConnection
+            location: [-2385, 2600, 23.26]
+            targetZone: fearplane
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 48 cazicthule
+    cazicthule:
+        -   type: ZoneConnection
+            location: [31, -71, 0]
+            targetZone: feerrott
+# 49 oggok
+    oggok:
+        -   type: ZoneConnection
+            location: [-408, -99, 0]
+            targetZone: feerrott
+# 50 rathemtn
+    rathemtn:
+        -   type: ZoneConnection
+            location: [3406.6, 3040.6, -3.8]
+            targetZone: lakerathe
+        -   type: ZoneConnection
+            location: [401, -3083, 0]
+            targetZone: feerrott
+# 51 lakerathe
+    lakerathe:
+        -   type: ZoneConnection
+            location: [4417, 1160, 0]
+            targetZone: southkarana
+        -   type: ZoneConnection
+            location: [2346, 2731, 93]
+            targetZone: arena
+        -   type: ZoneConnection
+            location: [2518, -2354, 2]
+            targetZone: rathemtn
+# 52 grobb
+    grobb:
+        -   type: ZoneConnection
+            location: [-142, 52, 0]
+            targetZone: innothule
+# 53 unused
+# 54 gfaydark
+    gfaydark:
+        -   type: ZoneConnection
+            location: [2644, -52, 16]
+            targetZone: crushbone
+        -   type: ZoneConnection
+            location: [-2633, -1114, 0]
+            targetZone: lfaydark
+        -   type: ZoneConnection
+            location: [-1636, 2710, 0]
+            targetZone: butcher
+        -   type: ZoneConnection
+            location: [-1931, 2651, 20]
+            targetZone: felwithea
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+        -   type: Translocator
+            name: Temporal Arcanist Seara
+            destinations:
+                -   keyword: Plane of Sky
+                    targetZone: airplane
+        -   type: Translocator
+            name: Temporal Arcanist T`Dal
+            destinations:
+                -   keyword: Plane of Hate
+                    targetZone: hateplane
+        -   type: Translocator
+            name: Wurmslayer Droche
+            destinations:
+                -   keyword: Veeshan
+                    targetZone: veeshan
+        -   type: Translocator
+            name: Temporal Arcanist Beatrix
+            destinations:
+                -   keyword: Neriak
+                    targetZone: nektulos
+                -   keyword: Freeport
+                    targetZone: freportw
+                -   keyword: Halas
+                    targetZone: everfrost
+                -   keyword: Kelethin
+                    targetZone: gfaydark
+                -   keyword: Qeynos
+                    targetZone: qeynos2
+                -   keyword: Oggok
+                    targetZone: feerrott
+                -   keyword: Rivervale
+                    targetZone: misty
+                -   keyword: Kaladim
+                    targetZone: butcher
+                -   keyword: Erudin
+                    targetZone: tox
+                -   keyword: Paineel
+                    targetZone: tox
+                -   keyword: Cabilis
+                    targetZone: fieldofbone
+                -   keyword: Grobb
+                    targetZone: innothule
+                -   keyword: AkAnon
+                    targetZone: steamfont
+                -   keyword: Overthere
+                    targetZone: overthere
+                -   keyword: Chardok
+                    targetZone: chardok
+                -   keyword: Dalnir
+                    targetZone: dalnir
+                -   keyword: The Hole
+                    targetZone: paineel
+                -   keyword: Old Sebilis
+                    targetZone: sebilis
+                -   keyword: North Karana
+                    targetZone: northkarana
+                -   keyword: Firiona Vie
+                    targetZone: firiona
+# 55 akanon
+    akanon:
+        -   type: ZoneConnection
+            location: [85, -73, 3]
+            targetZone: steamfont
+# 56 steamfont
+    steamfont:
+        -   type: ZoneConnection
+            location: [-2077, 530, -111]
+            targetZone: akanon
+        -   type: ZoneConnection
+            location: [580.5, 2213.7, -108.1]
+            targetZone: lfaydark
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 57 lfaydark
+    lfaydark:
+        -   type: ZoneConnection
+            location: [924, -2183, -5]
+            targetZone: steamfont
+        -   type: ZoneConnection
+            location: [2185, -1214, -1]
+            targetZone: gfaydark
+        -   type: ZoneConnection
+            location: [-1090, 3362, 0]
+            targetZone: mistmoore
+# 58 crushbone
+    crushbone:
+        -   type: ZoneConnection
+            location: [-683, 162, 0]
+            targetZone: gfaydark
+# 59 mistmoore
+    mistmoore:
+        -   type: ZoneConnection
+            location: [-371, 122, -181]
+            targetZone: lfaydark
+# 60 kaladima
+    kaladima:
+        -   type: ZoneConnection
+            location: [-83, 41, 0]
+            targetZone: butcher
+        -   type: ZoneConnection
+            location: [412, -253, 0]
+            targetZone: kaladimb
+            identifier: 1
+        -   type: ZoneConnection
+            location: [443, 327, -25]
+            targetZone: kaladimb
+            identifier: 2
+# 61 felwithea
+    felwithea:
+        -   type: ZoneConnection
+            location: [40, 266, 3.7]
+            targetZone: gfaydark
+        -   type: ZoneConnection
+            location: [370, -705, -14]
+            targetZone: felwitheb
+# 62 felwitheb
+    felwitheb:
+        -   type: ZoneConnection
+            location: [208, -834, -10]
+            targetZone: felwithea
+# 63 unrest
+    unrest:
+        -   type: ZoneConnection
+            location: [94, 340, 4]
+            targetZone: cauldron
+# 64 kedge
+    kedge:
+        -   type: ZoneConnection
+            location: [130, 31, 300]
+            targetZone: cauldron
+# 65 guktop
+    guktop:
+        -   type: ZoneConnection
+            location: [-62, 56, 0]
+            targetZone: innothule
+        -   type: ZoneConnection
+            location: [1104, 608, -80]
+            targetZone: gukbottom
+            identifier: 1
+        -   type: ZoneConnection
+            location: [1196, -225, -82]
+            targetZone: gukbottom
+            identifier: 2
+# 66 gukbottom
+    gukbottom:
+        -   type: ZoneConnection
+            location: [1171, -184, -84]
+            targetZone: guktop
+            identifier: 1
+        -   type: ZoneConnection
+            location: [1112, 628, -89]
+            targetZone: guktop
+            identifier: 2
+# 67 kaladimb
+    kaladimb:
+        -   type: ZoneConnection
+            location: [340, -222, 0]
+            targetZone: kaladima
+            identifier: 1
+        -   type: ZoneConnection
+            location: [383, 306, -24]
+            targetZone: kaladima
+            identifier: 2
+# 68 butcher
+    butcher:
+        -   type: ZoneConnection
+            location: [3158, -202, 3]
+            targetZone: kaladima
+        -   type: ZoneConnection
+            location: [-3015, -278, 3]
+            targetZone: cauldron
+        -   type: ZoneConnection
+            location: [-1316, -3121, 0]
+            targetZone: gfaydark
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+        -   type: Translocator
+            name: '#Translocator Gethia'
+            keyword: travel to Timorous Deep
+            targetZone: timorous
+        -   type: Translocator
+            name: '#Translocator Fithop'
+            keyword: travel to Ocean of Tears
+            targetZone: oot
+# 69 oot
+    oot:
+        -   type: Translocator
+            name: '#Translocator Narrik'
+            destinations:
+                -   keyword: travel to Freeport
+                    targetZone: freporte
+                -   keyword: travel to Butcherblock
+                    targetZone: butcher
+# 70 cauldron
+    cauldron:
+        -   type: ZoneConnection
+            location: [2869, 263, 473]
+            targetZone: butcher
+        -   type: ZoneConnection
+            location: [-2037, -625, 90]
+            targetZone: unrest
+        -   type: ZoneConnection
+            location: [-1200, -1010, -334]
+            targetZone: kedge
+# 71 airplane
+# 72 fearplane
+# 73 permafrost
+    permafrost:
+        -   type: ZoneConnection
+            location: [-103, 175, 0]
+            targetZone: permafrost
+# 74 kerraridge
+    kerraridge:
+        -   type: ZoneConnection
+            location: [414, -978, 20]
+            targetZone: tox
+# 75 paineel
+    paineel:
+        -   type: ZoneConnection
+            location: [938, 98, 3]
+            targetZone: tox
+        -   type: ZoneConnection
+            location: [645, -940, -92]
+            targetZone: hole
+# 76 hateplane
+# 77 arena
+    arena:
+        -   type: ZoneConnection
+            location: [-660, 16,-15]
+            targetZone: lakerathe
+# 78
+    fieldofbone:
+        -   type: ZoneConnection
+            location: [-2566, 3769, 4]
+            targetZone: cabeast
+        -   type: ZoneConnection
+            location: [503, 920, 61.5]
+            targetZone: kurn
+        -   type: ZoneConnection
+            location: [-1890, -150, -127]
+            targetZone: kaesora
+        -   type: ZoneConnection
+            location: [-1892, -1320, -6]
+            targetZone: emeraldjungle
+        -   type: ZoneConnection
+            location: [-3873, 1165, 28]
+            targetZone: swampofnohope
+        -   type: ZoneConnection
+            location: [1441, 4639, 0]
+            targetZone: warslikswood
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 79 warslikswood
+    warslikswood:
+        -   type: ZoneConnection
+            location: [-2264, -1198.6, 262.9]
+            targetZone: cabwest
+        -   type: ZoneConnection
+            location: [-209, 4322.5, 236]
+            targetZone: overthere
+        -   type: ZoneConnection
+            location: [-3710.8, 1025.7, 52.7]
+            targetZone: lakeofillomen
+        -   type: ZoneConnection
+            location: [1416, -3971.7, 0]
+            targetZone: fieldofbone
+        -   type: ZoneConnection
+            location: [2583, 4482, -244.7]
+            targetZone: dalnir
+# 80 solsoltemple
+    soltemple:
+        -   type: ZoneConnection
+            location: [223, 33, -0.8]
+            targetZone: lavastorm
+# 81 droga
+    droga:
+        -   type: ZoneConnection
+            location: [1446, 374, 0]
+            targetZone: frontiermtns
+        -   type: ZoneConnection
+            location: [-1422, 262, -191.8]
+            targetZone: nurga
+# 82 cabwest
+    cabwest:
+        -   type: ZoneConnection
+            location: [-879, 761, 0]
+            targetZone: lakeofillomen
+        -   type: ZoneConnection
+            location: [-42, 281, 0]
+            targetZone: cabeast
+        -   type: ZoneConnection
+            location: [742, 1329, 0]
+            targetZone: warslikswood
+# 83 swampofnohope
+    swampofnohope:
+        -   type: ZoneConnection
+            location: [3222, 3100, 73]
+            targetZone: cabeast
+        -   type: ZoneConnection
+            location: [5605, 1093.8, 9]
+            targetZone: fieldofbone
+        -   type: ZoneConnection
+            location: [2206, -4545.9, 18.5]
+            targetZone: trakanon
+        -   type: ZoneConnection
+            location: [-4580.8, -2182.5, -27.8]
+            targetZone: firiona
+            identifier: 1
+# 84 firiona
+    firiona:
+        -   type: ZoneConnection
+            location: [5131, -2156, -5.6]
+            targetZone: swampofnohope
+            identifier: 1
+        -   type: ZoneConnection
+            location: [4954.4, 2536.2, 1.9]
+            targetZone: swampofnohope
+            identifier: 2
+        -   type: ZoneConnection
+            location: [1345, 3929.1, 187.2]
+            targetZone: lakeofillomen
+        -   type: ZoneConnection
+            location: [364, 5958.7, -82.4]
+            targetZone: dreadlands
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 85 lakeofillomen
+    lakeofillomen:
+        -   type: ZoneConnection
+            location: [6657, -6672, 35]
+            targetZone: cabwest
+        -   type: ZoneConnection
+            location: [4331, 1190.9, 48.2]
+            targetZone: warslikswood
+        -   type: ZoneConnection
+            location: [1355, -4442, 219.5]
+            targetZone: firiona
+        -   type: ZoneConnection
+            location: [-362, 3594, 193]
+            targetZone: frontiermtns
+# 86 dreadlands
+    dreadlands:
+        -   type: ZoneConnection
+            location: [270.3, -6065.7, 138.9]
+            targetZone: firiona
+        -   type: ZoneConnection
+            location: [643, -2077, 23]
+            targetZone: karnor
+        -   type: ZoneConnection
+            location: [3586, -760, 197]
+            targetZone: burningwood
+        -   type: ZoneConnection
+            location: [2291.5, -3550.7, 138.9]
+            targetZone: frontiermtns
+# 87 burningwood
+    burningwood:
+        -   type: ZoneConnection
+            location: [-5108.4, -801.5, 196.6]
+            targetZone: dreadlands
+        -   type: ZoneConnection
+            location: [-2749.9, -4596, -27]
+            targetZone: frontiermtns
+        -   type: ZoneConnection
+            location: [7163.5, -4158.3, -235.7]
+            targetZone: chardok
+        -   type: ZoneConnection
+            location: [5652.6, 1714.8, -157]
+            targetZone: skyfire
+# 88 kaesora
+    kaesora:
+        -   type: ZoneConnection
+            location: [400.5, 39.7, 97.3]
+            targetZone: fieldofbone
+# 89 sebilis
+# 90
+    citymist:
+        -   type: ZoneConnection
+            location: [5, -939.8, 0]
+            targetZone: emeraldjungle
+# 91 skyfire
+    skyfire:
+        -   type: ZoneConnection
+            location: [-1126.9, -4385, 36.4]
+            targetZone: overthere
+        -   type: ZoneConnection
+            location: [-5754.8, 1753.9, -163.7]
+            targetZone: burningwood
+        -   type: ZoneConnection
+            location: [2790.1, 2987.1, -77.1]
+            targetZone: veeshan
+            switch: 135
+# 92 frontiermtns
+    frontiermtns:
+        -   type: ZoneConnection
+            location: [-402.4, -4638, 117]
+            targetZone: lakeofillomen
+        -   type: ZoneConnection
+            location: [-3791.4, -3219.4, -349.4]
+            targetZone: dreadlands
+        -   type: ZoneConnection
+            location: [-2349, 4297.8, -453.6]
+            targetZone: burningwood
+        -   type: ZoneConnection
+            location: [5989.6, 1392.1, 367.3]
+            targetZone: overthere
+        -   type: ZoneConnection
+            location: [-2650, -539.9, -496.18]
+            targetZone: nurga
+        -   type: ZoneConnection
+            location: [3250, 2964.4, 345.4]
+            targetZone: droga
+# 93 overthere
+    overthere:
+        -   type: ZoneConnection
+            location: [-6363.8, 1409.2, 366.3]
+            targetZone: frontiermtns
+        -   type: ZoneConnection
+            location: [-228.3, -4676.1, 297.7]
+            targetZone: warslikswood
+        -   type: ZoneConnection
+            location: [-1031.3, 4295, 95.7]
+            targetZone: skyfire
+        -   type: ZoneConnection
+            location: [104.8, 1529.9, -708.3]
+            targetZone: charasis
+            switch: 19
+        -   type: Translocator
+            name: Envoy of the Convergence
+            keyword: assistance
+            targetZone: ecommons
+# 94 emeraldjungle
+    emeraldjungle:
+        -   type: ZoneConnection
+            location: [-1892.9, 5614.6, -8.7]
+            targetZone: fieldofbone
+        -   type: ZoneConnection
+            location: [297.1, -1772.6, -334.6]
+            targetZone: citymist
+        -   type: ZoneConnection
+            location: [-3477.9, 1468.9, -344.2]
+            targetZone: trakanon
+# 95 trakanon
+    trakanon:
+        -   type: ZoneConnection
+            location: [3989.7, 1498.8, -344.3]
+            targetZone: emeraldjungle
+        -   type: ZoneConnection
+            location: [1610.8, 4479.4, -293.09]
+            targetZone: swampofnohope
+        -   type: ZoneConnection
+            location: [-1590.6, -4772.9, -472.7]
+            targetZone: sebilis
+            switch: 12
+# 96 timorous
+    timorous:
+    -   type: Translocator
+        name: '#Translocator Deela'
+        destinations:
+            -   keyword: travel to Butcherblock
+                targetZone: butcher
+# 97 kurn
+    kurn:
+        -   type: ZoneConnection
+            location: [-286.1, -5.3, 0]
+            targetZone: fieldofbone
+# 98 erudsxing
+# 99
+# 100
+# 101
+# 102 karnor
+    karnor:
+        -   type: ZoneConnection
+            location: [11.4, 530, 3.7]
+            targetZone: dreadlands
+# 103 chardok
+    chardok:
+        -   type: ZoneConnection
+            location: [249.5, 949.3, 100.1]
+            targetZone: burningwood
+# 104 dalnir
+    dalnir:
+        -   type: ZoneConnection
+            location: [12.8, 130.6, 3.7]
+            targetZone: warslikswood
+# 105 charasis
+    charasis:
+        -   type: ZoneConnection
+            location: [-11.4, -730.4, 20.4]
+            targetZone: overthere
+            identifier: 1
+        -   type: ZoneConnection
+            location: [-764.1, -116.2, -15.4]
+            targetZone: overthere
+            identifier: 2
+# 106 cabeast
+    cabeast:
+        -   type: ZoneConnection
+            location: [1363.5, -550.4, 3.7]
+            targetZone: fieldofbone
+        -   type: ZoneConnection
+            location: [-92.1, 350.2, 0]
+            targetZone: cabwest
+        -   type: ZoneConnection
+            location: [-165.6, -659.2, 0]
+            targetZone: swampofnohope
+# 107 nurga
+    nurga:
+        -   type: ZoneConnection
+            location: [-2267, -1799, 0]
+            targetZone: frontiermtns
+        -   type: ZoneConnection
+            location: [-797.8, -915.8, -175.9]
+            targetZone: droga
+# 108 veeshan
+# 109
+# 110
