@@ -300,6 +300,10 @@ FindLocations:
                     targetZone: northkarana
                 -   keyword: Firiona Vie
                     targetZone: firiona
+                -   keyword: Nagafen's Lair
+                    targetZone: soldungb
+                -   keyword: Permafrost
+                    targetZone: permafrost
 # 23 erudnint
     erudnint:
         -   type: ZoneConnection
@@ -495,6 +499,10 @@ FindLocations:
                     targetZone: northkarana
                 -   keyword: Firiona Vie
                     targetZone: firiona
+                -   keyword: Nagafen's Lair
+                    targetZone: soldungb
+                -   keyword: Permafrost
+                    targetZone: permafrost
 # 39 hole
     hole:
         -   type: ZoneConnection
@@ -695,6 +703,10 @@ FindLocations:
                     targetZone: northkarana
                 -   keyword: Firiona Vie
                     targetZone: firiona
+                -   keyword: Nagafen's Lair
+                    targetZone: soldungb
+                -   keyword: Permafrost
+                    targetZone: permafrost
 # 55 akanon
     akanon:
         -   type: ZoneConnection
